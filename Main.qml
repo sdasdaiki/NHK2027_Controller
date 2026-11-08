@@ -3,8 +3,8 @@ import QtQuick.Window 2.15
 import QtQuick.Shapes 1.15
 
 Window {
-    width: 1000
-    height: 800
+    width: Screen.width * 0.8
+    height: Screen.height * 0.8
     visible: true
     title: "Floor Plan Layout"
     color: "#dcdcdc" // 背景のグレー
