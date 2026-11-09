@@ -17,6 +17,9 @@ qt_add_executable(appNHK2027_AndroidApp
     main.cpp
 )
 
+set_target_properties(appNHK2027_AndroidApp PROPERTIES
+   QT_ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
+
 qt_add_qml_module(appNHK2027_AndroidApp
     URI NHK2027_AndroidApp
     QML_FILES
